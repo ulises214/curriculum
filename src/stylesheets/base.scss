@@ -1,3 +1,4 @@
+@import 'variables';
 html {
   box-sizing: border-box;
 }
@@ -9,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: $documentBG;
   font-family: Roboto, sans-serif;
   line-height: 1.4;
 }

@@ -1,0 +1,35 @@
+@import 'variables';
+.curriculum {
+  &__wrapper {
+    background-color: $dark;
+    bottom: 0;
+    height: $pageHeight;
+    left: 0;
+    margin: 10rem auto auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: $pageWith;
+  }
+  &__top {
+    background-color: $yellow;
+    height: 30%;
+    position: relative;
+    width: 100%;
+  }
+  &__bottom {
+    background-color: $dark;
+    height: 70%;
+    width: 100%;
+    &::before {
+      border-right: 0px solid transparent;
+      border-left: $pageWith solid transparent;
+      border-bottom: $pageHeight/10 solid $dark;
+      content: '';
+      height: 0;
+      position: absolute;
+      top: $pageHeight/10 * 2;
+      width: 0;
+    }
+  }
+}

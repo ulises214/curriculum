@@ -1,0 +1,38 @@
+@import 'mixins';
+@import 'variables';
+.curriculum__bottom {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0.5cm 1cm 1cm;
+  .curriculum__bottom__left,
+  .curriculum__bottom__right {
+    width: 50%;
+
+    h2 {
+      text-align: center;
+    }
+    .section-group * {
+      color: white;
+      padding: 0 0.1cm;
+      display: inline;
+    }
+    .section-items {
+      list-style-type: none;
+      li > h4 {
+        font-size: 0.45cm;
+        color: $orange;
+        margin: 0.3cm 0 0.2cm;
+      }
+      li > span {
+        font-weight: lighter;
+      }
+    }
+  }
+  .curriculum__bottom__left {
+  }
+  .curriculum__bottom__right {
+    // padding-top: 1.9cm;
+  }
+}
