@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ulises214.github.io/curriculum/",
   "name": "webpack-es6-sass-boilerplate",
   "version": "0.2.0",
   "description": "A minimalistic webpack 4 based boilerplate for building web apps",
